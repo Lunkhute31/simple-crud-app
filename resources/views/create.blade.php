@@ -20,6 +20,10 @@
       <label for="taskDescription" class="form-label">Task Description</label>
       <textarea class="form-control" id="taskDescription" name="taskDescription"></textarea>
     </div>
+    <div class="mb-3">
+        <label for="upload-file" class="form-label">Upload Image:</label><br>
+<input type="file" name="upload-file" id="upload-file">
+      </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
